@@ -1,0 +1,307 @@
+@media screen and (max-width: 1020px) and (min-width:840px) {
+   
+    .nav-links ul a{
+        flex-wrap: nowrap;
+       padding-inline: 10px;
+       font-size: 16px;
+       margin-right: 10px;
+    }
+    .search-btn{
+        width: 70px;
+    }
+    .hero-btn{
+        font-size:16px ;
+        display: flex;
+        flex-wrap: nowrap;
+        padding: 10px;
+    }
+    .campanies-section{
+        gap: 20px;
+        margin-inline: 10px;
+        flex-wrap: wrap;
+    }
+    .company-sec{
+        width:250px ;
+    }
+    .feature-area{
+        justify-content: center;
+    }
+    .service-container{
+       justify-content: center;
+       
+    }
+    .service-card{
+        width: 350px;
+    }
+    .conbine-btn input{
+        width: 470px;
+    }
+    
+    .feature-area{
+       padding-inline: 30px;
+        justify-content:space-between;
+        
+    }
+    .footer-divs{
+        width: 30%;
+    }
+    .sub-foot-both{
+        flex-direction: column;
+    }
+    
+}
+@media screen and  (max-width:840px) {
+    .main-nav{
+       justify-content: space-between;  
+       display: flex;
+    }
+
+    .nav-toggle{
+        display: block;
+        /* margin-right: 40px; */
+    }
+    .top-banner {
+        position: relative;
+    }
+    .main-nav .nav-links ul{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 2rem;
+        right: 2rem;
+        width: fit-content;
+        text-align: center;
+        gap: 0.5rem;
+        /* padding: 0 1.5rem; */
+        border-radius: 1rem;
+        background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(236,211,74,1) 0%, rgba(246,179,33,1) 0%, rgba(255,226,44,1) 100%);
+        display: none;
+    }
+    .main-nav .nav-links ul li{
+       padding: 0.5rem 2rem;
+       width: 100%;
+    }
+    
+    .main-nav .nav-links ul a{
+       width: 100%;
+       color: white;
+       font-weight: 400;
+
+    }
+    .main-nav .nav-links ul a:hover{
+        color: black;
+    }
+    .main-nav .nav-links ul li .home{
+        color: black !important;
+    }
+    .main-nav .nav-links ul .button{
+        flex-direction: column;
+        width: 100%;
+        /* gap: .4rem; */
+        /* justify-content: center;
+        align-items: center;
+        place-items: center; */
+    }
+    .main-nav .nav-links ul .button .secondary-button{
+       color: black;
+       margin-left: -0.1rem;
+        /* padding:  6px; */
+        font-weight: 400;
+        padding: 12px 24px;
+        /* width: 100px; */
+        border-radius: 6px;
+        /* margin-inline: 15px; */
+        display: flex;
+        justify-content: right;
+       
+    }
+    .nav-links ul .Xmark{
+        display: block;
+        text-align: right;
+        margin: 1rem 0rem 0rem -0.5rem ;
+        font-weight: 500;
+        font-size: larger;
+    }
+    .company-logo {
+        margin-right: 40vw;
+    }
+    .conbine-btn {
+        width:600px;
+    }
+}
+
+@media screen and (max-width:768px) and (min-width:481px) {
+    .top-banner{
+        padding-inline: 15px 20px;
+    }
+    .company-logo img{
+        width: 240px;
+        height: 80px;
+    }
+    .company-logo {
+        margin-right: 20vw;
+        justify-content: space-between;
+        /* padding-inline: -10px; */
+
+    }
+    
+    .hero-both{
+        flex-direction: column-reverse;
+    }
+    .left-hero{
+        justify-content: flex-start;
+        max-width: 100%;
+        padding-inline: 4rem;
+    }
+    .campanies-section{
+        gap: 10px;
+        margin-inline: 10px;
+        flex-wrap: wrap;
+    }
+    .company-sec{
+        width:100% ;
+        margin-inline: 3rem;
+        padding-inline: 10px;
+    }
+
+    .conbine-btn {
+        width:500px;
+    }
+    
+    .feature-card{
+        width: 100%;
+        padding-inline: 30px;
+    }
+    .service-card{
+        width: 60%;
+        
+    }
+    .ctn-both{
+        flex-direction: column;
+        justify-content: center;
+        /* gap: 10px; */
+        margin-block: 10px;
+        height: auto;
+
+    }
+    .ctn-left{
+        width:100%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .footer-divs{
+        width: 45%;
+    }
+    .sub-foot-both{
+        flex-direction: column;
+    }
+
+    
+   
+}
+@media screen and (max-width:522px) {
+   
+    .conbine-btn{
+        flex-direction: column;
+        gap: 10px;
+        /* display: none; */
+        background-color: transparent;
+        margin-inline: 10px;
+        border: none;
+        width: 100%;
+    }
+    .conbine-btn input{
+        width: 100%;
+        border: 2px solid #ffbb00 ;
+        border-radius: 10px;
+    }
+    .conbine-btn a{
+        border-radius: 10px;
+
+    }
+    .both-hero-btn{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .hero-btn{
+        width: 100%;
+        padding-inline: 10px;
+        justify-content: center;
+    }
+
+}
+@media screen and (max-width:480px)  {
+    .small-text{
+        flex-direction: column;
+        justify-content:flex-start;
+    }
+    .company-logo img{
+        width: 195px;
+        height: 55px;
+    }
+    .company-logo {
+        /* margin-right: 10vw; */
+        margin: 0px 10px;
+        justify-content: center;
+        /* padding-inline: -10px; */
+
+    }
+    .main-nav{
+        /* margin-inline: -13px; */
+        justify-content: center;
+    }
+    
+    .hero-both{
+        flex-direction: column-reverse;
+    }
+    .left-hero{
+        justify-content: flex-start;
+        max-width: 100%;
+        /* padding-inline: 1rem; */
+    }
+    .right-hero img{
+        width: 100%;
+    }
+    .campanies-section{
+        gap: 10px;
+        /* margin-inline: 10px; */
+        flex-wrap: wrap;
+    }
+    .company-sec{
+        width:100% ;
+        margin-bottom: 3rem;
+        padding-inline: 10px;
+    }
+
+    .conbine-btn {
+        width:100%;
+    }
+    .feature-area{
+        width:100%;
+    }
+    .feature-card{
+        width: 100%;
+        padding-inline: 10px;
+    }
+    .service-card{
+        width: 70%;
+        
+    }
+    .ctn-both{
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+    }
+    .ctn-left{
+        gap: 7px;
+    }
+    .footer-divs{
+        width: 100%;
+    }
+    .sub-foot-both{
+        flex-direction: column;
+    }
+    
+}
